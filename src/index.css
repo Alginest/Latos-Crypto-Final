@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+#tsparticles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -999;
+}
+#tsparticles .canvas-el {
+  position: absolute !important;
+  z-index: -1 !important;
+}
+
+.alice-carousel {
+  z-index: 20;
+}
